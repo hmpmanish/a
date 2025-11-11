@@ -4,7 +4,7 @@
 int main() {
     int i, j;
 
-    clrscr();  // Clears the screen (works only in Turbo C)
+    clrscr();  
 
     for (i = 1; i <= 5; i++) {
         for (j = 1; j <= i; j++) {
@@ -13,6 +13,5 @@ int main() {
         printf("\n");
     }
 
-    getch();   // Waits for a key press
-    return 0;
+    getch();   
 }
